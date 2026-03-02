@@ -13,7 +13,7 @@ jobs:
         uses: android-actions/setup-android@v3
       - name: Build APK
         run: |
-          gradle wrapper
+          gradle wrapper --gradle-version 8.2
           chmod +x gradlew
           ./gradlew assembleDebug
       - name: Upload APK
