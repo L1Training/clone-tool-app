@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace "com.l1training.cloningtool"
     compileSdk 34
 
     defaultConfig {
